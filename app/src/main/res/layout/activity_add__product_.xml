@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Product_Activity">
+
+    <ImageView
+        android:id="@+id/ProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="386dp"
+        android:src="@drawable/add_image"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/Add_new_Product"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="109dp"
+        android:background="@drawable/button_style"
+        android:padding="17dp"
+        android:text="@string/AddProduct"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Product_Price"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="206dp"
+        android:ems="10"
+        android:hint="@string/ProductPrice"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Product_description"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="265dp"
+        android:ems="10"
+        android:hint="@string/ProductDescription"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Products_name"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="318dp"
+        android:ems="10"
+        android:hint="@string/ProductName"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>

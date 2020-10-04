@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829752063685",
+    "firebase_url": "https://madgrouppro-f369a.firebaseio.com",
+    "project_id": "madgrouppro-f369a",
+    "storage_bucket": "madgrouppro-f369a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829752063685:android:b6d60def41db121dbe22ac",
+        "android_client_info": {
+          "package_name": "com.example.mad_group_pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829752063685-36ajhr3u84eft51g2q0nkc9op7b5jknc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mad_group_pro",
+            "certificate_hash": "79efaa9cd575fe8340d43590e84feca6e1d3cdc3"
+          }
+        },
+        {
+          "client_id": "829752063685-p3gkfef7aeeooufoq7j5vntm3c5919d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8zu1gPAj10LPkO4SpUlSR99EtlhioQD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829752063685-p3gkfef7aeeooufoq7j5vntm3c5919d2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

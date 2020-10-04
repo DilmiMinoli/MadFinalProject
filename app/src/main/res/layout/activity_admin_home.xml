@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Admin_home">
+
+
+  <Button
+      android:id="@+id/add_Caregory_button"
+      android:layout_width="279dp"
+      android:layout_height="64dp"
+      android:background="@drawable/button_style"
+      android:text="Add New Category"
+      android:textAllCaps="false"
+      android:textColor="@android:color/holo_purple"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.181" />
+
+  <Button
+      android:id="@+id/Add_Product_button"
+      android:layout_width="279dp"
+      android:layout_height="64dp"
+      android:background="@drawable/button_style"
+      android:onClick="AdminCategoryView"
+      android:text="Add New Products"
+      android:textAllCaps="false"
+      android:textColor="@android:color/holo_purple"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.383" />
+
+  <Button
+      android:id="@+id/Maintain_product_button"
+      android:layout_width="279dp"
+      android:layout_height="64dp"
+      android:layout_alignEnd="@+id/Add_Product_button"
+      android:layout_alignRight="@+id/Add_Product_button"
+      android:background="@drawable/button_style"
+      android:text="Maintain Products"
+      android:textAllCaps="false"
+      android:textColor="@android:color/holo_blue_dark"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.59" />
+
+  <Button
+      android:id="@+id/Log_Out_button"
+      android:layout_width="150dp"
+      android:layout_height="64dp"
+      android:layout_alignEnd="@+id/Maintain_product_button"
+      android:layout_alignRight="@+id/Maintain_product_button"
+      android:background="@drawable/button_style"
+      android:text="Logout"
+      android:textAllCaps="false"
+      android:textColor="@android:color/holo_blue_dark"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.803" />
+</androidx.constraintlayout.widget.ConstraintLayout>
